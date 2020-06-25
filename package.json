@@ -63,6 +63,12 @@
     "typedi": "^0.8.0",
     "typescript": "^3.9.5"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "np": {
+    "yarn": false
+  },
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
