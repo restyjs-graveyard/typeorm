@@ -104,3 +104,7 @@ dist
 .tern-port
 
 example.db
+
+# build files
+src/**/*.js
+src/**/*.d.ts
