@@ -106,5 +106,10 @@ dist
 example.db
 
 # build files
-src/**/*.js
-src/**/*.d.ts
+# source
+**/*.js
+*.js
+
+# definitions
+!**/*.d.ts
+!*.d.ts
