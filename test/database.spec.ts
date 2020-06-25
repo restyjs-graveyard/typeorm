@@ -1,4 +1,4 @@
-import resty, { Controller, Get, Configuration } from "@restyjs/core";
+import resty, { Controller, Get } from "@restyjs/core";
 import request from "supertest";
 import { Database } from "../src";
 
@@ -17,7 +17,7 @@ describe("resty", () => {
       providers: [
         Database({
           type: "sqlite",
-          database: "test",
+          database: "example.db",
           entities: [],
         }),
       ],

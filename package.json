@@ -1,6 +1,6 @@
 {
   "name": "@restyjs/typeorm",
-  "version": "0.0.1-alpha.7",
+  "version": "0.0.1-alpha.6",
   "description": "A Node.js framework",
   "homepage": "https://restyjs.com",
   "main": "index.js",
@@ -37,7 +37,8 @@
     "oracle-orm"
   ],
   "scripts": {
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "test": "jest"
   },
   "dependencies": {
     "typeorm": "^0.2.25",
@@ -54,10 +55,19 @@
     "jest": "^26.0.1",
     "np": "^6.2.4",
     "rimraf": "^3.0.2",
+    "sqlite3": "^4.2.0",
     "supertest": "^4.0.2",
     "ts-jest": "^26.1.1",
     "ts-node": "^8.10.2",
     "typedi": "^0.8.0",
     "typescript": "^3.9.5"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
   }
 }

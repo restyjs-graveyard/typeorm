@@ -4,6 +4,6 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-  "include": ["*.ts"],
+  "include": ["**/*.spec.ts"],
   "exclude": ["node_modules"]
 }
