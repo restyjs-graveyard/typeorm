@@ -62,9 +62,6 @@
     "typedi": "^0.8.0",
     "typescript": "^3.9.5"
   },
-  "np": {
-    "contents": "src"
-  },
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
