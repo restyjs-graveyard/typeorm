@@ -8,7 +8,6 @@
   "repository": "https://github.com/restyjs/typeorm",
   "author": "Satish Babariya",
   "license": "MIT",
-  "private": "false",
   "keywords": [
     "express",
     "express.js",
