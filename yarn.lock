@@ -465,9 +465,9 @@
     chalk "^4.0.0"
 
 "@restyjs/core@^0.0.1-alpha.7":
-  version "0.0.1-alpha.7"
-  resolved "https://registry.yarnpkg.com/@restyjs/core/-/core-0.0.1-alpha.7.tgz#80673353d2fada802c876f94dc6d2937cf14bf79"
-  integrity sha512-ttif5synJ9Htvas+dWM+SkpTG3xGLnkVID1rgadi+0hk6LtoKc8k+XAxG8rqm6t++kBD32ilejGZD/6IRkV3SQ==
+  version "0.0.1-alpha.14"
+  resolved "https://registry.yarnpkg.com/@restyjs/core/-/core-0.0.1-alpha.14.tgz#b6975e914da50b5b35496cccd18f92e614985aad"
+  integrity sha512-DKXn/+LgLDrNPI+ttTejv/RUGe/Q+vOfEg+QPhWfpU/P1BLVVEUY3sL+FV+pxysrWLtYWZI9DsXzq1jjsIKkPw==
   dependencies:
     "@types/body-parser" "^1.19.0"
     "@types/dotenv" "^8.2.0"
