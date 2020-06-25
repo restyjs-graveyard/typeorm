@@ -38,7 +38,8 @@
   ],
   "scripts": {
     "build": "tsc --build",
-    "test": "jest"
+    "test": "jest",
+    "release": "yarn publish --access public"
   },
   "dependencies": {
     "typeorm": "^0.2.25",
