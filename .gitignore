@@ -111,5 +111,5 @@ example.db
 *.js
 
 # definitions
-!**/*.d.ts
-!*.d.ts
+**/*.d.ts
+*.d.ts
