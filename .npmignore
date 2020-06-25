@@ -17,3 +17,4 @@ tslint.json
 tsconfig.json
 .prettierrc
 yarn.lock
+yarn-error.log
