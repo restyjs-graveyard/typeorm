@@ -63,7 +63,7 @@
     "typescript": "^3.9.5"
   },
   "np": {
-    "contents": "dist"
+    "contents": "src"
   },
   "jest": {
     "preset": "ts-jest",
