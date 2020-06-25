@@ -1,6 +1,4 @@
-# resty-typeorm
-
-### Example
+# @restyjs/typeorm
 
 ```typescript
 import resty, { Controller, Get } from "@restyjs/core";
