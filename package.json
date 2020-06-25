@@ -1,11 +1,11 @@
 {
   "name": "@restyjs/typeorm",
   "version": "0.0.1-alpha.7",
-  "description": "A Node.js framework",
+  "description": "TypeORM module for resty.js",
   "homepage": "https://restyjs.com",
   "main": "index.js",
   "types": "index.d.ts",
-  "repository": "https://github.com/restyjs/resty",
+  "repository": "https://github.com/restyjs/typeorm",
   "author": "Satish Babariya",
   "license": "MIT",
   "private": "false",
