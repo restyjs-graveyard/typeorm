@@ -39,7 +39,8 @@
   ],
   "scripts": {
     "build": "tsc --build",
-    "test": "jest"
+    "test": "jest",
+    "publish": "yarn build && yarn run np --tag=latest --yarn=false"
   },
   "dependencies": {
     "typeorm": "^0.2.25",
