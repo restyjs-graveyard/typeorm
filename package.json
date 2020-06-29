@@ -46,11 +46,11 @@
     "typeorm-typedi-extensions": "^0.2.3"
   },
   "peerDependencies": {
-    "@restyjs/core": "0.0.1-alpha.16",
+    "@restyjs/core": "0.0.1-alpha.17",
     "typedi": "^0.8.0"
   },
   "devDependencies": {
-    "@restyjs/core": "0.0.1-alpha.16",
+    "@restyjs/core": "0.0.1-alpha.17",
     "@types/jest": "^26.0.3",
     "@types/supertest": "^2.0.9",
     "jest": "^26.0.1",
