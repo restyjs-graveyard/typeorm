@@ -1,6 +1,6 @@
 {
   "name": "@restyjs/typeorm",
-  "version": "0.0.1-alpha.15",
+  "version": "0.0.1-alpha.20",
   "description": "TypeORM module for resty.js",
   "homepage": "https://restyjs.com",
   "main": "index.js",
@@ -46,15 +46,14 @@
     "typeorm-typedi-extensions": "^0.2.3"
   },
   "peerDependencies": {
-    "@restyjs/core": "0.0.1-alpha.18",
+    "@restyjs/core": "0.0.1-alpha.20",
     "typedi": "^0.8.0"
   },
   "devDependencies": {
-    "@restyjs/core": "0.0.1-alpha.18",
+    "@restyjs/core": "0.0.1-alpha.20",
     "@types/jest": "^26.0.3",
     "@types/supertest": "^2.0.9",
     "jest": "^26.0.1",
-    "np": "^6.2.4",
     "rimraf": "^3.0.2",
     "sqlite3": "^5.0.0",
     "supertest": "^4.0.2",
