@@ -41,10 +41,6 @@
     "test": "jest",
     "release": "yarn publish --access public"
   },
-  "dependencies": {
-    "typeorm": "^0.2.25",
-    "typeorm-typedi-extensions": "^0.2.3"
-  },
   "peerDependencies": {
     "@restyjs/core": "0.0.1-alpha.20"
   },
@@ -59,7 +55,8 @@
     "ts-jest": "^26.1.1",
     "ts-node": "^8.10.2",
     "typedi": "^0.8.0",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.5",
+    "typeorm": "^0.2.25"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
